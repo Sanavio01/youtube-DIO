@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1440px;
+}
+.menu {
+  border: 2px solid pink;
+  height: 56px;
+  width: 1440px;
+  padding: 0 24px 0 24px;
+}
+.menu img {
+  height: 100%;
+  width: 100%;
+}
+.vision {
+  display: flex;
+}
+.watching {
+  border: 2px solid red;
+  width: 952px;
+  height: 746px;
+  margin: 50px;
+  gap: 16px;
+}
+
+.sidebar {
+  border: 2px solid black;
+  margin-top: 50px;
+  margin-left: 3px;
+  width: 380px;
+}
